@@ -3,3 +3,80 @@
     margin: 0;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color:#5f6368;
+    font-size: 15px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 21,5;
+}
+header {
+    padding: 0 20px 0 0;
+    border-bottom: 1px solid rgba(151,151,151,0.5);
+    height: 105px;
+}
+
+.container-full {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+.container {
+    margin: auto;
+    margin-top: 180px;
+    width: 50%;
+}
+
+.box {
+    background-color: white;
+}
+.flex {
+    display: flex;
+}
+
+.menu a {
+    padding-left: 20px;
+}
+.nav {
+    padding:20px;
+    justify-content: space-between;
+}
+.nav-left .titolo h2 {
+    color:#5f6368;
+    font-size: 22px;
+    line-height: 21px;
+    font-weight: lighter;
+    padding-left: 5px;
+}
+.nav-right .app {
+    padding: 5px;
+}
+.nav-right .app a svg {
+    height: 25px;
+}
+p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color:#3c4043;
+    list-style: decimal;
+}
+.btn {
+    color: #ffffff;
+    background-color: #1a73e8;
+    border-radius: 5px;;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 14px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+h3, h4 {
+    color:#3c4043;
+    padding-bottom: 15px;
+}
