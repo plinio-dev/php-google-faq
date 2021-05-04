@@ -71,7 +71,7 @@
         ],
 
     ];
-
+    $menu = [ 'Introduzione', 'Norme sulla Privacy', 'Termini di Servizio', 'Tecnologie', 'Domande Frequenti' ];
    
 ?>
 
@@ -82,9 +82,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>php-google-faq</title>
 </head>
 <body>
+    <div>
+        <?php for ($i = 0; $i < count($menu); ++$i ) { ?>       
+         <a href=""><?php echo ($menu[$i]) ?></a>
+         <?php  } ?>
+    </div>
     <div>
         <?php foreach ($google as $value) { ?>
          <h3><?php echo $value['question'] ; ?> </h3> 
